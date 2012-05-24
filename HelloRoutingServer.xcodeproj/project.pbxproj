@@ -13,7 +13,31 @@
 		2776D6EC156EF98300C57037 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2776D6EA156EF98300C57037 /* Credits.rtf */; };
 		2776D6EF156EF98400C57037 /* ASEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2776D6EE156EF98400C57037 /* ASEAppDelegate.m */; };
 		2776D6F2156EF98400C57037 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2776D6F0156EF98400C57037 /* MainMenu.xib */; };
+		2776D6FC156EF9D200C57037 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2776D6F8156EF9D200C57037 /* CocoaAsyncSocket.framework */; };
+		2776D6FD156EF9D200C57037 /* CocoaHTTPServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2776D6F9156EF9D200C57037 /* CocoaHTTPServer.framework */; };
+		2776D6FE156EF9D200C57037 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2776D6FA156EF9D200C57037 /* CocoaLumberjack.framework */; };
+		2776D6FF156EF9D200C57037 /* RoutingHTTPServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2776D6FB156EF9D200C57037 /* RoutingHTTPServer.framework */; };
+		2776D701156EF9DD00C57037 /* CocoaAsyncSocket.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2776D6F8156EF9D200C57037 /* CocoaAsyncSocket.framework */; };
+		2776D702156EF9DD00C57037 /* CocoaHTTPServer.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2776D6F9156EF9D200C57037 /* CocoaHTTPServer.framework */; };
+		2776D703156EF9DD00C57037 /* CocoaLumberjack.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2776D6FA156EF9D200C57037 /* CocoaLumberjack.framework */; };
+		2776D704156EF9DD00C57037 /* RoutingHTTPServer.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2776D6FB156EF9D200C57037 /* RoutingHTTPServer.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2776D700156EF9D700C57037 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2776D701156EF9DD00C57037 /* CocoaAsyncSocket.framework in CopyFiles */,
+				2776D702156EF9DD00C57037 /* CocoaHTTPServer.framework in CopyFiles */,
+				2776D703156EF9DD00C57037 /* CocoaLumberjack.framework in CopyFiles */,
+				2776D704156EF9DD00C57037 /* RoutingHTTPServer.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		2776D6D7156EF98300C57037 /* HelloRoutingServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloRoutingServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -21,14 +45,18 @@
 		2776D6DE156EF98300C57037 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		2776D6DF156EF98300C57037 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		2776D6E0156EF98300C57037 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		2776D6E3156EF98300C57037 /* HelloRoutingServer-Info.plist */ = {isa = PBXFileReference; path = "HelloRoutingServer-Info.plist"; sourceTree = "<group>"; };
+		2776D6E3156EF98300C57037 /* HelloRoutingServer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloRoutingServer-Info.plist"; sourceTree = "<group>"; };
 		2776D6E5156EF98300C57037 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2776D6E7156EF98300C57037 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2776D6E9156EF98300C57037 /* HelloRoutingServer-Prefix.pch */ = {isa = PBXFileReference; path = "HelloRoutingServer-Prefix.pch"; sourceTree = "<group>"; };
+		2776D6E9156EF98300C57037 /* HelloRoutingServer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloRoutingServer-Prefix.pch"; sourceTree = "<group>"; };
 		2776D6EB156EF98300C57037 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		2776D6ED156EF98300C57037 /* ASEAppDelegate.h */ = {isa = PBXFileReference; path = ASEAppDelegate.h; sourceTree = "<group>"; };
+		2776D6ED156EF98300C57037 /* ASEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASEAppDelegate.h; sourceTree = "<group>"; };
 		2776D6EE156EF98400C57037 /* ASEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASEAppDelegate.m; sourceTree = "<group>"; };
 		2776D6F1156EF98400C57037 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2776D6F8156EF9D200C57037 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaAsyncSocket.framework; path = Frameworks/CocoaAsyncSocket.framework; sourceTree = "<group>"; };
+		2776D6F9156EF9D200C57037 /* CocoaHTTPServer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaHTTPServer.framework; path = Frameworks/CocoaHTTPServer.framework; sourceTree = "<group>"; };
+		2776D6FA156EF9D200C57037 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjack.framework; path = Frameworks/CocoaLumberjack.framework; sourceTree = "<group>"; };
+		2776D6FB156EF9D200C57037 /* RoutingHTTPServer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RoutingHTTPServer.framework; path = Frameworks/RoutingHTTPServer.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +65,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2776D6DC156EF98300C57037 /* Cocoa.framework in Frameworks */,
+				2776D6FC156EF9D200C57037 /* CocoaAsyncSocket.framework in Frameworks */,
+				2776D6FD156EF9D200C57037 /* CocoaHTTPServer.framework in Frameworks */,
+				2776D6FE156EF9D200C57037 /* CocoaLumberjack.framework in Frameworks */,
+				2776D6FF156EF9D200C57037 /* RoutingHTTPServer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +95,10 @@
 		2776D6DA156EF98300C57037 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2776D6F8156EF9D200C57037 /* CocoaAsyncSocket.framework */,
+				2776D6F9156EF9D200C57037 /* CocoaHTTPServer.framework */,
+				2776D6FA156EF9D200C57037 /* CocoaLumberjack.framework */,
+				2776D6FB156EF9D200C57037 /* RoutingHTTPServer.framework */,
 				2776D6DB156EF98300C57037 /* Cocoa.framework */,
 				2776D6DD156EF98300C57037 /* Other Frameworks */,
 			);
@@ -112,6 +148,7 @@
 				2776D6D3156EF98300C57037 /* Sources */,
 				2776D6D4156EF98300C57037 /* Frameworks */,
 				2776D6D5156EF98300C57037 /* Resources */,
+				2776D700156EF9D700C57037 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -251,6 +288,10 @@
 		2776D6F6156EF98400C57037 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HelloRoutingServer/HelloRoutingServer-Prefix.pch";
 				INFOPLIST_FILE = "HelloRoutingServer/HelloRoutingServer-Info.plist";
@@ -262,6 +303,10 @@
 		2776D6F7156EF98400C57037 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HelloRoutingServer/HelloRoutingServer-Prefix.pch";
 				INFOPLIST_FILE = "HelloRoutingServer/HelloRoutingServer-Info.plist";
