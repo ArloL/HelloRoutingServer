@@ -36,6 +36,8 @@
 		2750B826157178030058BAC7 /* ASEHelloRoutingServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2750B7F2157176910058BAC7 /* ASEHelloRoutingServer.m */; };
 		2750B8281571780A0058BAC7 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2750B8271571780A0058BAC7 /* CFNetwork.framework */; };
 		2750B82A1571780E0058BAC7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2750B8291571780E0058BAC7 /* Security.framework */; };
+		2751B85F157189D500A93D39 /* ASEHTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 2751B85E157189D500A93D39 /* ASEHTTPConnection.m */; };
+		2751B860157189D500A93D39 /* ASEHTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 2751B85E157189D500A93D39 /* ASEHTTPConnection.m */; };
 		2776D6DC156EF98300C57037 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2776D6DB156EF98300C57037 /* Cocoa.framework */; };
 /* End PBXBuildFile section */
 
@@ -90,7 +92,9 @@
 		2750B820157177ED0058BAC7 /* RoutingHTTPServer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RoutingHTTPServer.framework; path = FrameworksIOS/RoutingHTTPServer.framework; sourceTree = "<group>"; };
 		2750B8271571780A0058BAC7 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
 		2750B8291571780E0058BAC7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
-		2776D6D7156EF98300C57037 /* HelloRoutingServerOSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloRoutingServerOSX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2751B85D157189D500A93D39 /* ASEHTTPConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASEHTTPConnection.h; path = HelloRoutingServer/ASEHTTPConnection.h; sourceTree = "<group>"; };
+		2751B85E157189D500A93D39 /* ASEHTTPConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASEHTTPConnection.m; path = HelloRoutingServer/ASEHTTPConnection.m; sourceTree = "<group>"; };
+		2776D6D7156EF98300C57037 /* HelloRoutingServerOSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = HelloRoutingServerOSX.app; path = HelloRoutingServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2776D6DB156EF98300C57037 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		2776D6DE156EF98300C57037 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		2776D6DF156EF98300C57037 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -168,6 +172,8 @@
 			children = (
 				2750B7F1157176910058BAC7 /* ASEHelloRoutingServer.h */,
 				2750B7F2157176910058BAC7 /* ASEHelloRoutingServer.m */,
+				2751B85D157189D500A93D39 /* ASEHTTPConnection.h */,
+				2751B85E157189D500A93D39 /* ASEHTTPConnection.m */,
 			);
 			name = HelloRoutingServer;
 			sourceTree = "<group>";
@@ -350,6 +356,7 @@
 				2750B80B157177880058BAC7 /* main.m in Sources */,
 				2750B80F157177880058BAC7 /* ASEAppDelegate.m in Sources */,
 				2750B818157177880058BAC7 /* ASEViewController.m in Sources */,
+				2751B860157189D500A93D39 /* ASEHTTPConnection.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +367,7 @@
 				2750B7D8157175F20058BAC7 /* ASEAppDelegate.m in Sources */,
 				2750B7E1157176110058BAC7 /* main.m in Sources */,
 				2750B7F3157176910058BAC7 /* ASEHelloRoutingServer.m in Sources */,
+				2751B85F157189D500A93D39 /* ASEHTTPConnection.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
