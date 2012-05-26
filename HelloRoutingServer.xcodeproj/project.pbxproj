@@ -70,7 +70,7 @@
 		2750B7EA1571763D0058BAC7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = HelloRoutingServerOSX/en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2750B7F1157176910058BAC7 /* ASEHelloRoutingServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASEHelloRoutingServer.h; path = HelloRoutingServer/ASEHelloRoutingServer.h; sourceTree = "<group>"; };
 		2750B7F2157176910058BAC7 /* ASEHelloRoutingServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASEHelloRoutingServer.m; path = HelloRoutingServer/ASEHelloRoutingServer.m; sourceTree = "<group>"; };
-		2750B7FC157177880058BAC7 /* HelloRoutingServerIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloRoutingServerIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2750B7FC157177880058BAC7 /* HelloRoutingServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloRoutingServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2750B7FE157177880058BAC7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		2750B800157177880058BAC7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		2750B802157177880058BAC7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
@@ -225,7 +225,7 @@
 			isa = PBXGroup;
 			children = (
 				2776D6D7156EF98300C57037 /* HelloRoutingServerOSX.app */,
-				2750B7FC157177880058BAC7 /* HelloRoutingServerIOS.app */,
+				2750B7FC157177880058BAC7 /* HelloRoutingServer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -271,7 +271,7 @@
 			);
 			name = HelloRoutingServerIOS;
 			productName = HelloRoutingServerIOS;
-			productReference = 2750B7FC157177880058BAC7 /* HelloRoutingServerIOS.app */;
+			productReference = 2750B7FC157177880058BAC7 /* HelloRoutingServer.app */;
 			productType = "com.apple.product-type.application";
 		};
 		2776D6D6156EF98300C57037 /* HelloRoutingServerOSX */ = {
@@ -431,7 +431,7 @@
 				GCC_PREFIX_HEADER = "HelloRoutingServerIOS/HelloRoutingServerIOS-Prefix.pch";
 				INFOPLIST_FILE = "HelloRoutingServerIOS/HelloRoutingServerIOS-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
@@ -453,7 +453,7 @@
 				INFOPLIST_FILE = "HelloRoutingServerIOS/HelloRoutingServerIOS-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
