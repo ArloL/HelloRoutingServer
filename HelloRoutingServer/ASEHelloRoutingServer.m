@@ -40,4 +40,11 @@
     return self;
 }
 
+-(void)dealloc
+{
+    [httpServer stop];
+    
+    httpServer = nil;
+}
+
 @end
