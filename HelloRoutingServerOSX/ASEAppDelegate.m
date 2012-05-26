@@ -19,4 +19,16 @@
     helloServer = [ASEHelloRoutingServer new];
 }
 
+-(void)applicationDidBecomeActive:(NSNotification *)notification
+{
+    if (!helloServer) {
+        helloServer = [ASEHelloRoutingServer new];
+    }
+}
+
+-(void)applicationWillTerminate:(NSNotification *)notification
+{
+    helloServer = nil;
+}
+
 @end
