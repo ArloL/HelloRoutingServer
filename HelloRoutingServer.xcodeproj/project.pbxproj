@@ -7,20 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2750B7D11571758D0058BAC7 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2750B7CD1571758D0058BAC7 /* CocoaAsyncSocket.framework */; };
+		2750B7D21571758D0058BAC7 /* CocoaHTTPServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2750B7CE1571758D0058BAC7 /* CocoaHTTPServer.framework */; };
+		2750B7D31571758D0058BAC7 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2750B7CF1571758D0058BAC7 /* CocoaLumberjack.framework */; };
+		2750B7D41571758D0058BAC7 /* RoutingHTTPServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2750B7D01571758D0058BAC7 /* RoutingHTTPServer.framework */; };
+		2750B7D8157175F20058BAC7 /* ASEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2750B7D7157175F20058BAC7 /* ASEAppDelegate.m */; };
+		2750B7DE157176060058BAC7 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2750B7DA157176060058BAC7 /* Credits.rtf */; };
+		2750B7DF157176060058BAC7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2750B7DC157176060058BAC7 /* MainMenu.xib */; };
+		2750B7E1157176110058BAC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2750B7E0157176110058BAC7 /* main.m */; };
+		2750B7EB1571765D0058BAC7 /* CocoaAsyncSocket.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2750B7CD1571758D0058BAC7 /* CocoaAsyncSocket.framework */; };
+		2750B7EC1571765D0058BAC7 /* CocoaHTTPServer.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2750B7CE1571758D0058BAC7 /* CocoaHTTPServer.framework */; };
+		2750B7ED1571765D0058BAC7 /* CocoaLumberjack.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2750B7CF1571758D0058BAC7 /* CocoaLumberjack.framework */; };
+		2750B7EE1571765D0058BAC7 /* RoutingHTTPServer.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2750B7D01571758D0058BAC7 /* RoutingHTTPServer.framework */; };
+		2750B7F3157176910058BAC7 /* ASEHelloRoutingServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2750B7F2157176910058BAC7 /* ASEHelloRoutingServer.m */; };
+		2750B7FF157177880058BAC7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2750B7FE157177880058BAC7 /* UIKit.framework */; };
+		2750B801157177880058BAC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2750B800157177880058BAC7 /* Foundation.framework */; };
+		2750B803157177880058BAC7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2750B802157177880058BAC7 /* CoreGraphics.framework */; };
+		2750B809157177880058BAC7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2750B807157177880058BAC7 /* InfoPlist.strings */; };
+		2750B80B157177880058BAC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2750B80A157177880058BAC7 /* main.m */; };
+		2750B80F157177880058BAC7 /* ASEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2750B80E157177880058BAC7 /* ASEAppDelegate.m */; };
+		2750B812157177880058BAC7 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2750B810157177880058BAC7 /* MainStoryboard_iPhone.storyboard */; };
+		2750B815157177880058BAC7 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2750B813157177880058BAC7 /* MainStoryboard_iPad.storyboard */; };
+		2750B818157177880058BAC7 /* ASEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2750B817157177880058BAC7 /* ASEViewController.m */; };
+		2750B821157177ED0058BAC7 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2750B81D157177ED0058BAC7 /* CocoaAsyncSocket.framework */; };
+		2750B822157177ED0058BAC7 /* CocoaHTTPServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2750B81E157177ED0058BAC7 /* CocoaHTTPServer.framework */; };
+		2750B823157177ED0058BAC7 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2750B81F157177ED0058BAC7 /* CocoaLumberjack.framework */; };
+		2750B824157177ED0058BAC7 /* RoutingHTTPServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2750B820157177ED0058BAC7 /* RoutingHTTPServer.framework */; };
+		2750B826157178030058BAC7 /* ASEHelloRoutingServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2750B7F2157176910058BAC7 /* ASEHelloRoutingServer.m */; };
+		2750B8281571780A0058BAC7 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2750B8271571780A0058BAC7 /* CFNetwork.framework */; };
+		2750B82A1571780E0058BAC7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2750B8291571780E0058BAC7 /* Security.framework */; };
 		2776D6DC156EF98300C57037 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2776D6DB156EF98300C57037 /* Cocoa.framework */; };
-		2776D6E6156EF98300C57037 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2776D6E4156EF98300C57037 /* InfoPlist.strings */; };
-		2776D6E8156EF98300C57037 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2776D6E7156EF98300C57037 /* main.m */; };
-		2776D6EC156EF98300C57037 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2776D6EA156EF98300C57037 /* Credits.rtf */; };
-		2776D6EF156EF98400C57037 /* ASEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2776D6EE156EF98400C57037 /* ASEAppDelegate.m */; };
-		2776D6F2156EF98400C57037 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2776D6F0156EF98400C57037 /* MainMenu.xib */; };
-		2776D6FC156EF9D200C57037 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2776D6F8156EF9D200C57037 /* CocoaAsyncSocket.framework */; };
-		2776D6FD156EF9D200C57037 /* CocoaHTTPServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2776D6F9156EF9D200C57037 /* CocoaHTTPServer.framework */; };
-		2776D6FE156EF9D200C57037 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2776D6FA156EF9D200C57037 /* CocoaLumberjack.framework */; };
-		2776D6FF156EF9D200C57037 /* RoutingHTTPServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2776D6FB156EF9D200C57037 /* RoutingHTTPServer.framework */; };
-		2776D701156EF9DD00C57037 /* CocoaAsyncSocket.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2776D6F8156EF9D200C57037 /* CocoaAsyncSocket.framework */; };
-		2776D702156EF9DD00C57037 /* CocoaHTTPServer.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2776D6F9156EF9D200C57037 /* CocoaHTTPServer.framework */; };
-		2776D703156EF9DD00C57037 /* CocoaLumberjack.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2776D6FA156EF9D200C57037 /* CocoaLumberjack.framework */; };
-		2776D704156EF9DD00C57037 /* RoutingHTTPServer.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2776D6FB156EF9D200C57037 /* RoutingHTTPServer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,55 +46,176 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				2776D701156EF9DD00C57037 /* CocoaAsyncSocket.framework in CopyFiles */,
-				2776D702156EF9DD00C57037 /* CocoaHTTPServer.framework in CopyFiles */,
-				2776D703156EF9DD00C57037 /* CocoaLumberjack.framework in CopyFiles */,
-				2776D704156EF9DD00C57037 /* RoutingHTTPServer.framework in CopyFiles */,
+				2750B7EB1571765D0058BAC7 /* CocoaAsyncSocket.framework in CopyFiles */,
+				2750B7EC1571765D0058BAC7 /* CocoaHTTPServer.framework in CopyFiles */,
+				2750B7ED1571765D0058BAC7 /* CocoaLumberjack.framework in CopyFiles */,
+				2750B7EE1571765D0058BAC7 /* RoutingHTTPServer.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2776D6D7156EF98300C57037 /* HelloRoutingServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloRoutingServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2750B7CD1571758D0058BAC7 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaAsyncSocket.framework; path = FrameworksOSX/CocoaAsyncSocket.framework; sourceTree = "<group>"; };
+		2750B7CE1571758D0058BAC7 /* CocoaHTTPServer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaHTTPServer.framework; path = FrameworksOSX/CocoaHTTPServer.framework; sourceTree = "<group>"; };
+		2750B7CF1571758D0058BAC7 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjack.framework; path = FrameworksOSX/CocoaLumberjack.framework; sourceTree = "<group>"; };
+		2750B7D01571758D0058BAC7 /* RoutingHTTPServer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RoutingHTTPServer.framework; path = FrameworksOSX/RoutingHTTPServer.framework; sourceTree = "<group>"; };
+		2750B7D6157175F20058BAC7 /* ASEAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASEAppDelegate.h; path = HelloRoutingServerOSX/ASEAppDelegate.h; sourceTree = "<group>"; };
+		2750B7D7157175F20058BAC7 /* ASEAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASEAppDelegate.m; path = HelloRoutingServerOSX/ASEAppDelegate.m; sourceTree = "<group>"; };
+		2750B7DB157176060058BAC7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = HelloRoutingServerOSX/en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		2750B7DD157176060058BAC7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = HelloRoutingServerOSX/en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2750B7E0157176110058BAC7 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = HelloRoutingServerOSX/main.m; sourceTree = "<group>"; };
+		2750B7E7157176360058BAC7 /* HelloRoutingServer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "HelloRoutingServer-Info.plist"; path = "HelloRoutingServerOSX/HelloRoutingServer-Info.plist"; sourceTree = "<group>"; };
+		2750B7E8157176360058BAC7 /* HelloRoutingServer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "HelloRoutingServer-Prefix.pch"; path = "HelloRoutingServerOSX/HelloRoutingServer-Prefix.pch"; sourceTree = "<group>"; };
+		2750B7EA1571763D0058BAC7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = HelloRoutingServerOSX/en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2750B7F1157176910058BAC7 /* ASEHelloRoutingServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASEHelloRoutingServer.h; path = HelloRoutingServer/ASEHelloRoutingServer.h; sourceTree = "<group>"; };
+		2750B7F2157176910058BAC7 /* ASEHelloRoutingServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASEHelloRoutingServer.m; path = HelloRoutingServer/ASEHelloRoutingServer.m; sourceTree = "<group>"; };
+		2750B7FC157177880058BAC7 /* HelloRoutingServerIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloRoutingServerIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2750B7FE157177880058BAC7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		2750B800157177880058BAC7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2750B802157177880058BAC7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		2750B806157177880058BAC7 /* HelloRoutingServerIOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloRoutingServerIOS-Info.plist"; sourceTree = "<group>"; };
+		2750B808157177880058BAC7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2750B80A157177880058BAC7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2750B80C157177880058BAC7 /* HelloRoutingServerIOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloRoutingServerIOS-Prefix.pch"; sourceTree = "<group>"; };
+		2750B80D157177880058BAC7 /* ASEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASEAppDelegate.h; sourceTree = "<group>"; };
+		2750B80E157177880058BAC7 /* ASEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASEAppDelegate.m; sourceTree = "<group>"; };
+		2750B811157177880058BAC7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		2750B814157177880058BAC7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		2750B816157177880058BAC7 /* ASEViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASEViewController.h; sourceTree = "<group>"; };
+		2750B817157177880058BAC7 /* ASEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASEViewController.m; sourceTree = "<group>"; };
+		2750B81D157177ED0058BAC7 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaAsyncSocket.framework; path = FrameworksIOS/CocoaAsyncSocket.framework; sourceTree = "<group>"; };
+		2750B81E157177ED0058BAC7 /* CocoaHTTPServer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaHTTPServer.framework; path = FrameworksIOS/CocoaHTTPServer.framework; sourceTree = "<group>"; };
+		2750B81F157177ED0058BAC7 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjack.framework; path = FrameworksIOS/CocoaLumberjack.framework; sourceTree = "<group>"; };
+		2750B820157177ED0058BAC7 /* RoutingHTTPServer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RoutingHTTPServer.framework; path = FrameworksIOS/RoutingHTTPServer.framework; sourceTree = "<group>"; };
+		2750B8271571780A0058BAC7 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		2750B8291571780E0058BAC7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		2776D6D7156EF98300C57037 /* HelloRoutingServerOSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloRoutingServerOSX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2776D6DB156EF98300C57037 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		2776D6DE156EF98300C57037 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		2776D6DF156EF98300C57037 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		2776D6E0156EF98300C57037 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		2776D6E3156EF98300C57037 /* HelloRoutingServer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloRoutingServer-Info.plist"; sourceTree = "<group>"; };
-		2776D6E5156EF98300C57037 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		2776D6E7156EF98300C57037 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2776D6E9156EF98300C57037 /* HelloRoutingServer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloRoutingServer-Prefix.pch"; sourceTree = "<group>"; };
-		2776D6EB156EF98300C57037 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		2776D6ED156EF98300C57037 /* ASEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASEAppDelegate.h; sourceTree = "<group>"; };
-		2776D6EE156EF98400C57037 /* ASEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASEAppDelegate.m; sourceTree = "<group>"; };
-		2776D6F1156EF98400C57037 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		2776D6F8156EF9D200C57037 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaAsyncSocket.framework; path = Frameworks/CocoaAsyncSocket.framework; sourceTree = "<group>"; };
-		2776D6F9156EF9D200C57037 /* CocoaHTTPServer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaHTTPServer.framework; path = Frameworks/CocoaHTTPServer.framework; sourceTree = "<group>"; };
-		2776D6FA156EF9D200C57037 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjack.framework; path = Frameworks/CocoaLumberjack.framework; sourceTree = "<group>"; };
-		2776D6FB156EF9D200C57037 /* RoutingHTTPServer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RoutingHTTPServer.framework; path = Frameworks/RoutingHTTPServer.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2750B7F9157177880058BAC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2750B82A1571780E0058BAC7 /* Security.framework in Frameworks */,
+				2750B8281571780A0058BAC7 /* CFNetwork.framework in Frameworks */,
+				2750B7FF157177880058BAC7 /* UIKit.framework in Frameworks */,
+				2750B801157177880058BAC7 /* Foundation.framework in Frameworks */,
+				2750B803157177880058BAC7 /* CoreGraphics.framework in Frameworks */,
+				2750B821157177ED0058BAC7 /* CocoaAsyncSocket.framework in Frameworks */,
+				2750B822157177ED0058BAC7 /* CocoaHTTPServer.framework in Frameworks */,
+				2750B823157177ED0058BAC7 /* CocoaLumberjack.framework in Frameworks */,
+				2750B824157177ED0058BAC7 /* RoutingHTTPServer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2776D6D4156EF98300C57037 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2776D6DC156EF98300C57037 /* Cocoa.framework in Frameworks */,
-				2776D6FC156EF9D200C57037 /* CocoaAsyncSocket.framework in Frameworks */,
-				2776D6FD156EF9D200C57037 /* CocoaHTTPServer.framework in Frameworks */,
-				2776D6FE156EF9D200C57037 /* CocoaLumberjack.framework in Frameworks */,
-				2776D6FF156EF9D200C57037 /* RoutingHTTPServer.framework in Frameworks */,
+				2750B7D11571758D0058BAC7 /* CocoaAsyncSocket.framework in Frameworks */,
+				2750B7D21571758D0058BAC7 /* CocoaHTTPServer.framework in Frameworks */,
+				2750B7D31571758D0058BAC7 /* CocoaLumberjack.framework in Frameworks */,
+				2750B7D41571758D0058BAC7 /* RoutingHTTPServer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2750B7D5157175C20058BAC7 /* HelloRoutingServerOSX */ = {
+			isa = PBXGroup;
+			children = (
+				2750B7D6157175F20058BAC7 /* ASEAppDelegate.h */,
+				2750B7D7157175F20058BAC7 /* ASEAppDelegate.m */,
+				2750B7DC157176060058BAC7 /* MainMenu.xib */,
+				2750B7D9157175F40058BAC7 /* Supporting Files */,
+			);
+			name = HelloRoutingServerOSX;
+			sourceTree = "<group>";
+		};
+		2750B7D9157175F40058BAC7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2750B7E7157176360058BAC7 /* HelloRoutingServer-Info.plist */,
+				2750B7E91571763D0058BAC7 /* InfoPlist.strings */,
+				2750B7E8157176360058BAC7 /* HelloRoutingServer-Prefix.pch */,
+				2750B7DA157176060058BAC7 /* Credits.rtf */,
+				2750B7E0157176110058BAC7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2750B7EF157176620058BAC7 /* OSX */ = {
+			isa = PBXGroup;
+			children = (
+				2750B7CD1571758D0058BAC7 /* CocoaAsyncSocket.framework */,
+				2750B7CE1571758D0058BAC7 /* CocoaHTTPServer.framework */,
+				2750B7CF1571758D0058BAC7 /* CocoaLumberjack.framework */,
+				2750B7D01571758D0058BAC7 /* RoutingHTTPServer.framework */,
+			);
+			name = OSX;
+			sourceTree = "<group>";
+		};
+		2750B7F0157176770058BAC7 /* HelloRoutingServer */ = {
+			isa = PBXGroup;
+			children = (
+				2750B7F1157176910058BAC7 /* ASEHelloRoutingServer.h */,
+				2750B7F2157176910058BAC7 /* ASEHelloRoutingServer.m */,
+			);
+			name = HelloRoutingServer;
+			sourceTree = "<group>";
+		};
+		2750B804157177880058BAC7 /* HelloRoutingServerIOS */ = {
+			isa = PBXGroup;
+			children = (
+				2750B80D157177880058BAC7 /* ASEAppDelegate.h */,
+				2750B80E157177880058BAC7 /* ASEAppDelegate.m */,
+				2750B810157177880058BAC7 /* MainStoryboard_iPhone.storyboard */,
+				2750B813157177880058BAC7 /* MainStoryboard_iPad.storyboard */,
+				2750B816157177880058BAC7 /* ASEViewController.h */,
+				2750B817157177880058BAC7 /* ASEViewController.m */,
+				2750B805157177880058BAC7 /* Supporting Files */,
+			);
+			path = HelloRoutingServerIOS;
+			sourceTree = "<group>";
+		};
+		2750B805157177880058BAC7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2750B806157177880058BAC7 /* HelloRoutingServerIOS-Info.plist */,
+				2750B807157177880058BAC7 /* InfoPlist.strings */,
+				2750B80A157177880058BAC7 /* main.m */,
+				2750B80C157177880058BAC7 /* HelloRoutingServerIOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2750B825157177F00058BAC7 /* IOS */ = {
+			isa = PBXGroup;
+			children = (
+				2750B8291571780E0058BAC7 /* Security.framework */,
+				2750B8271571780A0058BAC7 /* CFNetwork.framework */,
+				2750B81D157177ED0058BAC7 /* CocoaAsyncSocket.framework */,
+				2750B81E157177ED0058BAC7 /* CocoaHTTPServer.framework */,
+				2750B81F157177ED0058BAC7 /* CocoaLumberjack.framework */,
+				2750B820157177ED0058BAC7 /* RoutingHTTPServer.framework */,
+			);
+			name = IOS;
+			sourceTree = "<group>";
+		};
 		2776D6CC156EF98300C57037 = {
 			isa = PBXGroup;
 			children = (
-				2776D6E1156EF98300C57037 /* HelloRoutingServer */,
+				2750B7F0157176770058BAC7 /* HelloRoutingServer */,
+				2750B7D5157175C20058BAC7 /* HelloRoutingServerOSX */,
+				2750B804157177880058BAC7 /* HelloRoutingServerIOS */,
 				2776D6DA156EF98300C57037 /* Frameworks */,
 				2776D6D8156EF98300C57037 /* Products */,
 			);
@@ -87,7 +224,8 @@
 		2776D6D8156EF98300C57037 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2776D6D7156EF98300C57037 /* HelloRoutingServer.app */,
+				2776D6D7156EF98300C57037 /* HelloRoutingServerOSX.app */,
+				2750B7FC157177880058BAC7 /* HelloRoutingServerIOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,11 +233,12 @@
 		2776D6DA156EF98300C57037 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2776D6F8156EF9D200C57037 /* CocoaAsyncSocket.framework */,
-				2776D6F9156EF9D200C57037 /* CocoaHTTPServer.framework */,
-				2776D6FA156EF9D200C57037 /* CocoaLumberjack.framework */,
-				2776D6FB156EF9D200C57037 /* RoutingHTTPServer.framework */,
+				2750B825157177F00058BAC7 /* IOS */,
+				2750B7EF157176620058BAC7 /* OSX */,
 				2776D6DB156EF98300C57037 /* Cocoa.framework */,
+				2750B7FE157177880058BAC7 /* UIKit.framework */,
+				2750B800157177880058BAC7 /* Foundation.framework */,
+				2750B802157177880058BAC7 /* CoreGraphics.framework */,
 				2776D6DD156EF98300C57037 /* Other Frameworks */,
 			);
 			name = Frameworks;
@@ -115,35 +254,29 @@
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		2776D6E1156EF98300C57037 /* HelloRoutingServer */ = {
-			isa = PBXGroup;
-			children = (
-				2776D6ED156EF98300C57037 /* ASEAppDelegate.h */,
-				2776D6EE156EF98400C57037 /* ASEAppDelegate.m */,
-				2776D6F0156EF98400C57037 /* MainMenu.xib */,
-				2776D6E2156EF98300C57037 /* Supporting Files */,
-			);
-			path = HelloRoutingServer;
-			sourceTree = "<group>";
-		};
-		2776D6E2156EF98300C57037 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				2776D6E3156EF98300C57037 /* HelloRoutingServer-Info.plist */,
-				2776D6E4156EF98300C57037 /* InfoPlist.strings */,
-				2776D6E7156EF98300C57037 /* main.m */,
-				2776D6E9156EF98300C57037 /* HelloRoutingServer-Prefix.pch */,
-				2776D6EA156EF98300C57037 /* Credits.rtf */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2776D6D6156EF98300C57037 /* HelloRoutingServer */ = {
+		2750B7FB157177880058BAC7 /* HelloRoutingServerIOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2776D6F5156EF98400C57037 /* Build configuration list for PBXNativeTarget "HelloRoutingServer" */;
+			buildConfigurationList = 2750B81B157177880058BAC7 /* Build configuration list for PBXNativeTarget "HelloRoutingServerIOS" */;
+			buildPhases = (
+				2750B7F8157177880058BAC7 /* Sources */,
+				2750B7F9157177880058BAC7 /* Frameworks */,
+				2750B7FA157177880058BAC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloRoutingServerIOS;
+			productName = HelloRoutingServerIOS;
+			productReference = 2750B7FC157177880058BAC7 /* HelloRoutingServerIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2776D6D6156EF98300C57037 /* HelloRoutingServerOSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2776D6F5156EF98400C57037 /* Build configuration list for PBXNativeTarget "HelloRoutingServerOSX" */;
 			buildPhases = (
 				2776D6D3156EF98300C57037 /* Sources */,
 				2776D6D4156EF98300C57037 /* Frameworks */,
@@ -154,9 +287,9 @@
 			);
 			dependencies = (
 			);
-			name = HelloRoutingServer;
+			name = HelloRoutingServerOSX;
 			productName = HelloRoutingServer;
-			productReference = 2776D6D7156EF98300C57037 /* HelloRoutingServer.app */;
+			productReference = 2776D6D7156EF98300C57037 /* HelloRoutingServerOSX.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -180,64 +313,154 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2776D6D6156EF98300C57037 /* HelloRoutingServer */,
+				2776D6D6156EF98300C57037 /* HelloRoutingServerOSX */,
+				2750B7FB157177880058BAC7 /* HelloRoutingServerIOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2750B7FA157177880058BAC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2750B809157177880058BAC7 /* InfoPlist.strings in Resources */,
+				2750B812157177880058BAC7 /* MainStoryboard_iPhone.storyboard in Resources */,
+				2750B815157177880058BAC7 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2776D6D5156EF98300C57037 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2776D6E6156EF98300C57037 /* InfoPlist.strings in Resources */,
-				2776D6EC156EF98300C57037 /* Credits.rtf in Resources */,
-				2776D6F2156EF98400C57037 /* MainMenu.xib in Resources */,
+				2750B7DE157176060058BAC7 /* Credits.rtf in Resources */,
+				2750B7DF157176060058BAC7 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2750B7F8157177880058BAC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2750B826157178030058BAC7 /* ASEHelloRoutingServer.m in Sources */,
+				2750B80B157177880058BAC7 /* main.m in Sources */,
+				2750B80F157177880058BAC7 /* ASEAppDelegate.m in Sources */,
+				2750B818157177880058BAC7 /* ASEViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2776D6D3156EF98300C57037 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2776D6E8156EF98300C57037 /* main.m in Sources */,
-				2776D6EF156EF98400C57037 /* ASEAppDelegate.m in Sources */,
+				2750B7D8157175F20058BAC7 /* ASEAppDelegate.m in Sources */,
+				2750B7E1157176110058BAC7 /* main.m in Sources */,
+				2750B7F3157176910058BAC7 /* ASEHelloRoutingServer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2776D6E4156EF98300C57037 /* InfoPlist.strings */ = {
+		2750B7DA157176060058BAC7 /* Credits.rtf */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2776D6E5156EF98300C57037 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		2776D6EA156EF98300C57037 /* Credits.rtf */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2776D6EB156EF98300C57037 /* en */,
+				2750B7DB157176060058BAC7 /* en */,
 			);
 			name = Credits.rtf;
 			sourceTree = "<group>";
 		};
-		2776D6F0156EF98400C57037 /* MainMenu.xib */ = {
+		2750B7DC157176060058BAC7 /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2776D6F1156EF98400C57037 /* en */,
+				2750B7DD157176060058BAC7 /* en */,
 			);
 			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		2750B7E91571763D0058BAC7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2750B7EA1571763D0058BAC7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2750B807157177880058BAC7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2750B808157177880058BAC7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2750B810157177880058BAC7 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2750B811157177880058BAC7 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		2750B813157177880058BAC7 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2750B814157177880058BAC7 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		2750B819157177880058BAC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+					"\"$(SRCROOT)/FrameworksIOS\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloRoutingServerIOS/HelloRoutingServerIOS-Prefix.pch";
+				INFOPLIST_FILE = "HelloRoutingServerIOS/HelloRoutingServerIOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2750B81A157177880058BAC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+					"\"$(SRCROOT)/FrameworksIOS\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloRoutingServerIOS/HelloRoutingServerIOS-Prefix.pch";
+				INFOPLIST_FILE = "HelloRoutingServerIOS/HelloRoutingServerIOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 		2776D6F3156EF98400C57037 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -290,11 +513,11 @@
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/Frameworks\"",
+					"\"$(SRCROOT)/FrameworksOSX\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "HelloRoutingServer/HelloRoutingServer-Prefix.pch";
-				INFOPLIST_FILE = "HelloRoutingServer/HelloRoutingServer-Info.plist";
+				GCC_PREFIX_HEADER = "HelloRoutingServerOSX/HelloRoutingServer-Prefix.pch";
+				INFOPLIST_FILE = "HelloRoutingServerOSX/HelloRoutingServer-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -305,11 +528,11 @@
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/Frameworks\"",
+					"\"$(SRCROOT)/FrameworksOSX\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "HelloRoutingServer/HelloRoutingServer-Prefix.pch";
-				INFOPLIST_FILE = "HelloRoutingServer/HelloRoutingServer-Info.plist";
+				GCC_PREFIX_HEADER = "HelloRoutingServerOSX/HelloRoutingServer-Prefix.pch";
+				INFOPLIST_FILE = "HelloRoutingServerOSX/HelloRoutingServer-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -318,6 +541,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2750B81B157177880058BAC7 /* Build configuration list for PBXNativeTarget "HelloRoutingServerIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2750B819157177880058BAC7 /* Debug */,
+				2750B81A157177880058BAC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		2776D6D1156EF98300C57037 /* Build configuration list for PBXProject "HelloRoutingServer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -327,13 +558,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2776D6F5156EF98400C57037 /* Build configuration list for PBXNativeTarget "HelloRoutingServer" */ = {
+		2776D6F5156EF98400C57037 /* Build configuration list for PBXNativeTarget "HelloRoutingServerOSX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2776D6F6156EF98400C57037 /* Debug */,
 				2776D6F7156EF98400C57037 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
