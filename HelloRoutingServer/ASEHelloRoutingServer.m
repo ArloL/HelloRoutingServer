@@ -26,7 +26,7 @@
         // Normally there's no need to run our server on any specific port.
         // Technologies like Bonjour allow clients to dynamically discover the server's port at runtime.
         // However, for easy testing you may want force a certain port so you can just hit the refresh button.
-        [httpServer setPort:12346];
+        [httpServer setPort:12345];
         
         // We're going to extend the base HTTPConnection class with our MyHTTPConnection class.
         // This allows us to do all kinds of customizations.
