@@ -518,7 +518,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HelloRoutingServerOSX/HelloRoutingServer-Prefix.pch";
 				INFOPLIST_FILE = "HelloRoutingServerOSX/HelloRoutingServer-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "$(PROJECT_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -533,7 +533,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HelloRoutingServerOSX/HelloRoutingServer-Prefix.pch";
 				INFOPLIST_FILE = "HelloRoutingServerOSX/HelloRoutingServer-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "$(PROJECT_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -548,6 +548,7 @@
 				2750B81A157177880058BAC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2776D6D1156EF98300C57037 /* Build configuration list for PBXProject "HelloRoutingServer" */ = {
 			isa = XCConfigurationList;
